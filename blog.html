@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kay University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scriptt.js">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <h5>Kayplanet</h5>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Certificates & Online Courses For Previous Year</h1>
+    </section>
+
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./images/graduate.jpg">
+                <h2>Certificates & Previous Online Courses</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo optio quibusdam sed animi soluta dicta</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, similique? Dolores sequi quis fuga</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil non molestias dignissimos sed? Cupiditate, aliquid</p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, ea est expedita, iure perferendis eos ducimus cumque voluptates aliquam accusamus tenetur! 
+                    Explicabo ex eligendi temporibus aspernatur cumque cum, omnis rem
+
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name="" id="" rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="b-btn about-btn">POST</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Web Design</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Theatre Art</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Graphic Design</span>
+                    <span>32</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quae magni ratione, labore itaque magnam dolorum, repellendus perferendis aliquam ullam iste <br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat. Numquam, optio ab
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>&copy; 2022 Kayplanet</p>
+    </section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

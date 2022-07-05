@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kay University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scriptt.js">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <h5>Kayplanet</h5>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about">
+        <div class="row">
+            <div class="about-col">
+                <h1>The Largest University in the Universe</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quae magni ratione, labore itaque magnam dolorum, repellendus perferendis aliquam ullam iste <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat. Numquam, optio ab
+                </p>
+                <a href="" class="b-btn about-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="./images/busy.png" alt="">
+            </div>
+        </div>
+    </section>    
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quae magni ratione, labore itaque magnam dolorum, repellendus perferendis aliquam ullam iste <br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, placeat. Numquam, optio ab
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>&copy; 2022 Kayplanet</p>
+    </section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
