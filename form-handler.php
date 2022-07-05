@@ -8,7 +8,7 @@ $email_from = 'info@yourwebsite.com';
 $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
                 "User Email: $visitor_email.\n".
-                "User Name: $subject.\n".
+                "Subject: $subject.\n".
                 "User Message: $message.\n";
 
 $to = 'calebnwachuks@gmail.com';
